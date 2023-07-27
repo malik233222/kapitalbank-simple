@@ -1,0 +1,1034 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.orta {
+    width: 80%;
+}
+
+nav .orta {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+
+
+}
+
+li button {
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+button i {
+    padding: 3px;
+
+}
+
+a i {
+    color: red;
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 90px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 200px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: black;
+    font-size: smaller;
+}
+
+.teklifler {
+    background: #e8ecf1;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+.teklifler .orta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teklifler .sol {
+    display: flex;
+    align-items: center;
+    width: 82%;
+}
+
+.teklifler .sol ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    text-transform: uppercase;
+
+
+
+}
+
+.sag {
+    width: 100px;
+}
+
+.sag a {
+    width: 100%;
+}
+
+a img {
+    width: 70px;
+    border-radius: 14px;
+}
+
+.sol ul a {
+    font-size: 15px;
+}
+
+
+
+.boz {
+    margin: 1px 0;
+    background: #eaebec;
+    display: flex;
+    padding: 44px 0;
+    justify-content: center;
+
+
+}
+
+.boz .orta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 72px;
+}
+
+.boz .sol {
+    width: 50%;
+
+}
+
+.boz .sag {
+    width: 50%;
+}
+
+.sol .title {
+    width: 100%;
+}
+
+.boz .title {
+    width: 50%;
+}
+
+.title h2 {
+    font-size: 26px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    width: 280px;
+}
+.title >    h2  >span{
+    font-weight: 500;
+}
+.sifariset {
+    width: 45%;
+}
+
+.sifariset a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f45369;
+    color: white;
+    border: 1px solid #f45369;
+    padding: 12px;
+    border-radius: 9px;
+    font-size: 20px;
+    align-items: center;
+    height: 54px;
+}
+
+.sag .sekil {
+    width: 100%;
+}
+
+.sekil img {
+    width: 400px;
+}
+
+.yuxari {
+    position: relative;
+    top: -70px;
+    display: flex;
+    justify-content: center;
+}
+
+.yuxari .orta {
+    display: flex;
+    justify-content: center;
+    width: 77%;
+    background: #f8f9fa;
+    padding: 0px 42px;
+    border-radius: 8px;
+}
+
+.qutu {
+    box-shadow: 0 4px 12px hsla(0, 0%, 80%, .45);
+    padding: 34px 0;
+    display: flex;
+    width: 54%;
+    margin: 34px 16px;
+    background: white;
+    border-radius: 8px;
+    justify-content: center;
+}
+.qutu > a{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qutu i {
+    display: flex;
+    width: 100%;
+    /* height: 36px; */
+    font-size: 36px;
+    justify-content: center;
+    padding: 14px;
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+}
+
+.up .orta {
+    display: flex;
+    flex-direction: column;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+}
+
+.up .basliq {
+    width: 30%;
+    padding-bottom: 10px;
+}
+
+.up .yazi {
+    width: 44%;
+    padding-bottom: 30px;
+
+}
+
+.yazi h3 {
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.adivi {
+
+    padding-top: 10px;
+    width: 43%;
+}
+
+.adivi a {
+    display: flex;
+    justify-content: center;
+    width: 87%;
+    background-color: #f45369;
+    color: white;
+    border: 1px solid #f45369;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.down {
+    background: #e9ecf0;
+    padding: 40px 0;
+}
+
+.down .sol {
+    display: flex;
+    flex-wrap: wrap;
+    width: 59%;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.wrapdiv h2 {
+    color: red;
+}
+
+.down .orta {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sag .kartsekli {
+    width: 100%;
+    position: relative;
+}
+
+.kartsekli img {
+    width: 281px;
+    position: absolute;
+    top: -148px;
+}
+
+.down .sag {
+    display: flex;
+    position: relative;
+}
+
+.down .sag .butonlar {
+    display: flex;
+    position: absolute;
+    left: 275px;
+    top: 95px;
+}
+
+.butonlar button {
+    margin: 0 15px;
+    color: grey;
+    border: 1px solid #E9ECF0;
+    background-color: #E9ECF0;
+
+}
+
+.boz .sag {
+    position: relative;
+}
+
+.boz .buttons {
+    display: flex;
+    position: absolute;
+    left: 365px;
+    top: 200px;
+
+}
+
+.buttons button {
+    border: 1px solid #E9ECF0;
+    border-radius: 13px;
+    background-color: white;
+    color: grey;
+    margin: 0 12px;
+}
+
+.buttons button i {
+    padding: 7px;
+}
+
+.kredit .up {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    padding: 31px 0 15px 0;
+}
+
+.up .title {
+    width: 40%;
+}
+
+
+
+.kredit .up .yazi {
+    width: 80%;
+    padding-left: 301px
+}
+
+.kredit .sag {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 0 0 0;
+    flex-wrap: wrap;
+}
+
+.sert h2 {
+    color: #FF2121;
+}
+
+.sag .sert {
+    width: 30%;
+}
+
+.kredit .sol img {
+    bottom: -22px;
+    width: 384px;
+    position: absolute;
+    left: 60px
+}
+
+.kredit .sol .skl {
+    position: relative;
+    width: 100%;
+
+}
+
+.kredit .sag .adivi {
+    width: 27%;
+    margin-right: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.orta {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.cal .sol {
+    width: 55%;
+
+}
+
+.sol .alar {
+    width: 100%;
+}
+
+.sol .alar a {
+
+    background-color: rgb(210, 206, 206);
+    border-radius: 10px;
+    color: black;
+    padding: 2px 8px;
+    margin: 5px 3px;
+
+}
+
+.sol .alar a:hover {
+    color: white;
+    background-color: red;
+}
+
+.calculator {
+    padding: 30px 0 15px 0;
+}
+
+.status h2,
+h4,
+h5 {
+    padding: 10px 0;
+}
+
+.hersey {
+    display: flex;
+    flex-direction: column;
+}
+
+.hesab {
+    border: 1px solid #D2CECE;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 50px;
+    border-radius: 5px;
+    padding-bottom: 63px;
+}
+
+.hesab span {
+    font-size: 10px;
+    padding: 5px 0 0 10px;
+    color: #D2CECE;
+
+}
+
+.hersey .ss {
+    padding: 7px 0 10px 0;
+    font-size: 12px;
+    color: grey;
+    font-weight: 300;
+}
+
+.number {
+    padding: 4px 0 0 10px;
+
+}
+
+.hesab input {
+    border: 0;
+
+}
+
+.hesab .range {
+    position: absolute;
+    bottom: 0;
+}
+
+.reqem {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #E31E00;
+    border-radius: 1px;
+    border: 0px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #FFFFFF;
+    border: 6px solid #E3E1E1;
+    height: 26px;
+    width: 26px;
+    border-radius: 38px;
+    background: #FF2121;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -13.5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #E31E00;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #E31E00;
+    border-radius: 1px;
+    border: 0px solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #FFFFFF;
+    border: 6px solid #E3E1E1;
+    height: 26px;
+    width: 26px;
+    border-radius: 38px;
+    background: #FF2121;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #E31E00;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #E31E00;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #FFFFFF;
+    border: 6px solid #E3E1E1;
+    height: 26px;
+    width: 26px;
+    border-radius: 38px;
+    background: #FF2121;
+    cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #E31E00;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #E31E00;
+}
+
+.kicikqutu {
+    border: 1px solid gray;
+    width: 86%;
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.kicikqutu .adivi {
+    padding-top: 10px;
+    width: 87%;
+
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.kicikqutu .adivi a {
+
+    padding: 16px;
+}
+
+.cal {
+    display: flex;
+    justify-content: center;
+}
+
+.cal .orta {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cal .orta .sag {
+    display: flex;
+    align-items: center;
+    width: 37%;
+}
+
+.odenis .kreditucun {
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.odenis {
+    width: 80%;
+    margin-bottom: 40px;
+    TEXT-ALIGN: center;
+    line-height: 38px;
+}
+
+.qiymet {
+    width: 80%;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.qiymet .qiymet2 {
+    font-size: 56px;
+    color: red;
+    font-weight: 700;
+}
+
+.crepay {
+    display: flex;
+    overflow: hidden;
+}
+
+.crepay .bold {
+
+
+
+    width: 81%;
+}
+
+.crepay .sol {
+
+    width: 50%;
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 40px 70px;
+    background-color: grey;
+
+}
+
+.crepay .bold h2 {
+    font-size: 40px;
+
+}
+
+.crepay .summary {
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crepay .summary h4 {
+    padding: 10px 0;
+    font-weight: 300;
+}
+
+.summary .sol2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.summary .sol2 .aa a,
+i {
+    color: red;
+}
+
+.sag .summary .sol2 .aa a {
+    color: white;
+}
+
+.sag .summary .sol2 .aa a i {
+    color: white;
+}
+
+.crepay .sag {
+
+    width: 50%;
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 70px;
+    background-color: red;
+}
+
+.sag .summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sol .sol2 {
+    width: 60%;
+}
+
+.sol .sol2 .yazi2 {
+    width: 80%;
+}
+
+.sol .sag2 {
+    width: 40%;
+}
+
+.sol .sag2 .sekil2 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.sol .sekil2 img {
+    width: 190px;
+    position: absolute;
+    bottom: -13px;
+}
+
+.sag .sol2 {
+    width: 60%;
+}
+
+.sag .sag2 {
+    width: 40%;
+}
+
+.sag .sag2 .sekil2 {
+    position: relative;
+    height: 200px;
+}
+
+.sag .sekil2 img {
+    width: 220px;
+    position: absolute;
+}
+
+.ag {
+    padding: 20px;
+}
+
+.xeberler {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8ECF1;
+    padding: 35px;
+}
+
+.xeberler .orta {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.up2 {
+    display: flex;
+}
+
+
+.up2 .title {
+    width: 50%;
+}
+
+.up2 .link {
+    width: 50%;
+}
+
+.up2 .link a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.xeberler .xett {
+    align-items: center;
+    border-bottom: 2px solid white;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.number2 h2 {
+    border: 1px solid red;
+    border-radius: 100px;
+    display: inline;
+    padding: 10px;
+}
+
+
+.down2 {
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down2 a {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sol3 {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 27px;
+}
+
+.title2 {
+    margin-top: 12px;
+}
+
+.title3 {
+    width: 212px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.sag3 {
+    width: 83%;
+}
+
+.valyuta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.valyuta>.orta {
+    display: flex;
+    justify-content: space-between;
+}
+.cedvel{
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+tbody{
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    padding: 25px;
+}
+.sol .cedvel{
+    margin-top: 20px;
+}
+.sol .cedvel tr{
+    display: flex;
+    justify-content: flex-start;
+   
+
+}
+
+.sol .cedvel td{
+width: 30%;
+}
+
+.sag .cedvel .tr{
+    display: flex;
+    j
+}
+.valyuta>.orta>.sol {
+    width: 60%;
+    padding-top: 30px;
+}
+
+.valyuta h2 {
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.valyuta h4 {
+    font-weight: 100;
+    font-size: 15px;
+
+}
+
+.valyuta .sag {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.sag>.kursqutusu {
+    background-color: #e8ecf1;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kursqutusu>.buttonqutusu {
+    margin-top: 15px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.buttonqutusu button {
+    margin: 2px;
+    height: 39px;
+    color: black;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.buttonqutusu button:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.inputqutusu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.inputqutusu>input {
+    margin: 10px 0;
+    width: 90%;
+    outline: none;
+    height: 38px;
+    border-radius: 5px;
+}
+.inputqutusu>button {
+    position: absolute;
+    display: flex;
+    border-radius: 10px;
+    right: 39px;
+    z-index: 2;
+    top: 0px;
+    margin: 10px 0;
+    height: 31px;
+    cursor: pointer;
+    color: black;
+    padding: 10px 6px;
+    border: 1px solid red;
+    transform: translateX(2px);
+    margin-top: 13px;
+    justify-content: center;
+    align-items: center;
+}
